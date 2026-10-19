@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta name="description" content="Read the Weathora Privacy Policy to learn how location, weather requests, and app data are handled.">
+  <title>Privacy Policy | Weathora</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f5f8fc;
+      --surface: #ffffff;
+      --text: #182536;
+      --muted: #68788c;
+      --primary: #3979e8;
+      --border: #e5ebf3;
+      --soft: #edf4ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.8;
+    }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container {
+      width: min(100% - 36px, 860px);
+      margin: auto;
+    }
+
+    header { padding: 24px 0; }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      font: 800 21px "Manrope", sans-serif;
+      letter-spacing: -0.7px;
+    }
+
+    .brand-icon {
+      display: grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 13px;
+      background: var(--soft);
+      color: var(--primary);
+      font-size: 22px;
+    }
+
+    .nav-link {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 48px 0 32px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 13px;
+      border-radius: 30px;
+      background: var(--soft);
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      font-family: "Manrope", sans-serif;
+      letter-spacing: -0.8px;
+      line-height: 1.3;
+    }
+
+    h1 {
+      margin: 20px 0 12px;
+      font-size: clamp(34px, 6vw, 48px);
+    }
+
+    .hero p {
+      max-width: 580px;
+      margin: auto;
+      color: var(--muted);
+    }
+
+    .updated {
+      margin-top: 18px !important;
+      font-size: 13px;
+    }
+
+    .content {
+      margin: 20px auto 64px;
+      padding: clamp(24px, 5vw, 48px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--surface);
+      box-shadow: 0 12px 40px rgba(31, 54, 87, 0.04);
+    }
+
+    .intro {
+      margin: 0 0 30px;
+      padding: 18px 20px;
+      border-radius: 14px;
+      background: #f4f8ff;
+      color: #435a78;
+    }
+
+    section { margin-top: 32px; }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 21px;
+    }
+
+    p, li { color: #536276; }
+
+    ul { padding-left: 22px; }
+    li { margin: 7px 0; }
+
+    footer {
+      padding: 28px 0 40px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer p { margin: 5px 0; }
+
+    @media (max-width: 600px) {
+      header { padding: 16px 0; }
+      .hero { padding-top: 35px; }
+      .content { border-radius: 18px; }
+      .nav-link { font-size: 12px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="./index.html" aria-label="Weathora home">
+        <span class="brand-icon">☁</span>
+        Weathora
+      </a>
+      <a class="nav-link" href="./terms-and-conditions.html">
+        Terms &amp; Conditions →
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <span class="eyebrow">Your privacy matters</span>
+      <h1>Privacy Policy</h1>
+      <p>
+        A clear explanation of how Weathora handles information
+        when you check the weather and explore cities.
+      </p>
+      <p class="updated">Last updated: October 19, 2026</p>
+    </div>
+
+    <article class="content">
+      <p class="intro">
+        This policy applies to the Weathora mobile application.
+        Please review it before using the app. Update this policy
+        whenever the app's data practices change.
+      </p>
+
+      <section>
+        <h2>1. Information We Handle</h2>
+        <p>
+          Depending on the features you use and how the app is
+          configured, Weathora may process the following information:
+        </p>
+        <ul>
+          <li>
+            <strong>City searches:</strong> City names you enter to
+            find local weather forecasts.
+          </li>
+          <li>
+            <strong>Location coordinates:</strong> Latitude and
+            longitude used to retrieve weather for a selected city
+            or, if implemented and permitted, your device location.
+          </li>
+          <li>
+            <strong>App preferences:</strong> Settings such as
+            temperature units, theme, language, or saved cities,
+            if those features are enabled.
+          </li>
+          <li>
+            <strong>Technical information:</strong> Limited
+            diagnostic or usage information may be processed by
+            the app platform or third-party services, if integrated.
+          </li>
+        </ul>
+        <p>
+          Weathora does not require you to create an account to use
+          basic weather features, unless a future version introduces
+          an account-based feature.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Location Permission</h2>
+        <p>
+          You can search for a city manually. If Weathora offers
+          current-location weather, it may request permission to
+          access your device location for that feature.
+        </p>
+        <p>
+          You can deny or revoke location permission through your
+          device settings. Manual city search can be used instead,
+          where available.
+        </p>
+        <p>
+          Only describe location access as optional or
+          while-in-use if that matches the permissions and behavior
+          of the published app.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Weather and Third-Party Services</h2>
+        <p>
+          Weathora uses third-party services to provide weather
+          forecasts and geographic search results. These may include
+          Open-Meteo's Forecast API and Geocoding API.
+        </p>
+        <p>
+          When you request a forecast, relevant coordinates may be
+          sent to the weather provider. When you search for a city,
+          your search query may be sent to the geocoding provider.
+          Those providers process requests under their own policies
+          and terms.
+        </p>
+        <p>
+          Open-Meteo:
+          <a href="https://open-meteo.com/" target="_blank"
+             rel="noopener noreferrer">open-meteo.com</a>
+        </p>
+        <p>
+          Weathora may use additional image, analytics, advertising,
+          or crash-reporting services in future versions. This policy
+          must be updated to identify any such services and explain
+          their data practices before they are introduced.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. How Information Is Used</h2>
+        <p>Information processed by the app may be used to:</p>
+        <ul>
+          <li>Retrieve current weather and forecast information.</li>
+          <li>Find cities and display relevant weather results.</li>
+          <li>Remember app preferences or saved locations, if enabled.</li>
+          <li>Diagnose errors and improve reliability, if diagnostic tools are enabled.</li>
+        </ul>
+        <p>
+          We do not state that information is collected, stored,
+          or used for analytics unless the corresponding feature
+          is actually implemented.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Data Storage and Security</h2>
+        <p>
+          Some app preferences or cached information may be stored
+          locally on your device, depending on the features enabled.
+          Information sent to third-party providers is subject to
+          their systems and policies.
+        </p>
+        <p>
+          Reasonable measures should be taken to protect information
+          handled by the app. However, no method of electronic
+          storage or transmission can be guaranteed to be completely
+          secure.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Data Sharing</h2>
+        <p>
+          Weathora does not sell personal information as part of its
+          stated operating model. Data may be transmitted to weather
+          and geocoding providers when needed to fulfill your request.
+          Other sharing must be disclosed if advertising, analytics,
+          crash reporting, or other services are added.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Your Choices and Rights</h2>
+        <ul>
+          <li>Manage location permissions through your device settings.</li>
+          <li>Use manual city search instead of device location, where available.</li>
+          <li>Clear locally stored app data through the device settings, where supported.</li>
+          <li>
+            Contact us with questions or requests about information
+            associated with your use of Weathora.
+          </li>
+        </ul>
+        <p>
+          Your legal rights may vary depending on your country or region.
+          We will handle valid requests in accordance with applicable law.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Children's Privacy</h2>
+        <p>
+          Weathora is not intended to knowingly collect personal
+          information from children. If you believe a child has
+          provided personal information through a feature of the app,
+          contact us so the matter can be reviewed.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Changes to This Policy</h2>
+        <p>
+          This policy may be updated when app features, service
+          providers, or legal requirements change. The revised
+          version will be published on this page with an updated
+          revision date.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Contact Us</h2>
+        <p>
+          For privacy questions or requests, contact:
+          <a href="mailto:YOUR_EMAIL@example.com">
+            YOUR_EMAIL@example.com
+          </a>
+        </p>
+        <p>
+          Replace this placeholder with an email address that you
+          actively monitor before publishing this policy.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Weathora</strong> — Weather, made simple.</p>
+      <p>
+        <a href="./privacy-policy.html">Privacy Policy</a>
+        &nbsp;·&nbsp;
+        <a href="./terms-and-conditions.html">Terms &amp; Conditions</a>
+      </p>
+      <p>© 2026 Weathora. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
